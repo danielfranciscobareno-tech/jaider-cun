@@ -1,0 +1,145 @@
+/* ==== CONFIGURACIÓN GENERAL ==== */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Fondo oscuro */
+  color: #f0f0f0;            /* Texto claro */
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0.5em 0;
+}
+
+/* ==== NAVBAR ==== */
+.navbar {
+  background-color: #1f1f1f;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+}
+
+.navbar a {
+  color: #00bcd4;
+  margin: 5px 12px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.navbar a:hover, .nav-link.active {
+  background-color: #004080;
+  color: white;
+}
+
+/* ==== HEADER ==== */
+header {
+  background: linear-gradient(135deg,#0014F5B3, #0074D9);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 2px solid #00bcd4;
+}
+
+header img {
+  max-width: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 15px;
+}
+
+/* ==== SECCIONES ==== */
+section {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+section h2 {
+  text-align: center;
+  color: #00bcd4;
+  margin-bottom: 20px;
+}
+
+/* ==== TARJETAS ==== */
+.card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  padding: 25px;
+  margin-bottom: 25px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* ==== PASOS / NUMERACIÓN ==== */
+.step {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin: 15px 0;
+}
+
+.step-num {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #00bcd4;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* ==== IMÁGENES ==== */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+/* ==== BOTONES ==== */
+.button, .simulador-link {
+  display: inline-block;
+  background-color: #00bcd4;
+  color: white;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.button:hover, .simulador-link:hover {
+  background-color: #004c8c;
+}
+
+/* ==== FOOTER ==== */
+footer {
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #00bcd4;
+  margin-top: 40px;
+}
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .step {
+    flex-direction: column;
+  }
+}
