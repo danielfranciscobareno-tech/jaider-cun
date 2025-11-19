@@ -64,9 +64,14 @@
             padding: 25px;
             margin-bottom: 20px;
             color: #f0f0f0;
+            transition:0.3s;
         }
 
-        .card img {
+        .card:hover {
+            transform:translateY(-5px);
+        }
+
+        .img {
             max-width: 100%;
             border-radius: 10px;
             margin: 10px 0;
@@ -108,7 +113,7 @@
 
     <section>
                 <h2>Pasos para el mantenimiento preventivo</h2>
-
+                
                 <div class="card">
                     <div class="step">
                         <div class="step-num">1</div>
@@ -116,75 +121,93 @@
                             espacio limpio y seguro. Es recomendable usar una pulsera antiestática para proteger los
                             componentes sensibles. Antes de comenzar, revisa que tengas todos los materiales necesarios:
                             destornilladores, aire comprimido, paños de microfibra y alcohol isopropílico.</div>
+                            <img src="imagenes/paso1.jpg" alt="Preparación"></div>
                     </div>
-
+                
+                <div class="card">    
                     <div class="step">
                         <div class="step-num">2</div>
                         <div><strong>Limpieza externa:</strong> Limpia la carcasa, monitor, teclado y mouse. Esto no
                             solo mantiene la apariencia sino que reduce la acumulación de polvo que puede ingresar al
                             gabinete. Recomendamos usar movimientos suaves y paños ligeramente húmedos, evitando
                             líquidos cerca de puertos y ventiladores.</div>
+                            <img src="imagenes/paso2.jpg" alt="Limpieza externa"></div>
                     </div>
-
+                
+                <div class="card">
                     <div class="step">
                         <div class="step-num">3</div>
                         <div><strong>Apertura del gabinete:</strong> Retira con cuidado el panel lateral del computador.
                             Observa cómo están distribuidos los componentes y familiarízate con ellos antes de tocar
-                            nada. Esto te ayudará a comprender la ubicación de CPU, RAM, GPU, disco duro y ventiladores.
-                            <img src="imagenes/gabinete.jpg" alt="Apertura del gabinete"></div>
+                            nada. Esto te ayudará a comprender la ubicación de CPU, RAM, GPU, disco duro y ventiladores.</div>
+                            <img src="imagenes/paso3.jpg" alt="Apertura del gabinete"></div>
                     </div>
 
+                <div class="card">    
                     <div class="step">
                         <div class="step-num">4</div>
                         <div><strong>Limpieza interna:</strong> Usa aire comprimido en ráfagas cortas para eliminar
                             polvo acumulado en ventiladores, disipadores y ranuras de memoria. Evita el contacto directo
                             con los chips y nunca uses líquidos dentro del gabinete. Una limpieza adecuada mejora la
                             ventilación y previene sobrecalentamiento.</div>
+                            <img src="imagenes/paso4.jpg" alt="Limpieza interna" width="265"></div>
                     </div>
 
+                <div class="card">    
                     <div class="step">
                         <div class="step-num">5</div>
                         <div><strong>Revisión de cables:</strong> Asegúrate de que todos los cables estén correctamente
                             conectados y ordenados. Un cable mal colocado puede causar fallas o cortocircuitos. Además,
                             mantener los cables organizados facilita futuras intervenciones y mejora la circulación del
                             aire dentro del gabinete.</div>
+                            <img src="imagenes/paso5.jpg" alt="Revisión de cables" width="250"></div>
                     </div>
 
+                <div class="card">
                     <div class="step">
                         <div class="step-num">6</div>
                         <div><strong>Ventiladores:</strong> Limpia cuidadosamente las aspas con hisopos o paños con
                             alcohol isopropílico. Revisa que giren libremente y que no tengan ruidos extraños, esto
                             garantiza un flujo de aire adecuado y previene daños en otros componentes.</div>
+                            <img src="imagenes/paso6.jpg" alt="Ventiladores" width="230"></div>
                     </div>
 
+                <div class="card">
                     <div class="step">
                         <div class="step-num">7</div>
                         <div><strong>Pasta térmica:</strong> Renueva la pasta térmica del procesador si el equipo tiene
                             varios años de uso. Esto mejora la transferencia de calor entre CPU y disipador, evitando
                             sobrecalentamiento. Aplica una capa delgada y uniforme, siguiendo las instrucciones del
-                            fabricante. <img src="imagenes/pasta.jpg" alt="Aplicación de pasta térmica"></div>
+                            fabricante.</div>
+                            <img src="imagenes/paso7.jpg" alt="Pasta térmica" width="230"></div>
                     </div>
 
+                <div class="card">
                     <div class="step">
                         <div class="step-num">8</div>
                         <div><strong>Cierre y prueba:</strong> Vuelve a colocar el panel lateral, conecta todos los
                             cables y enciende la computadora. Verifica que todos los componentes funcionen
                             correctamente, revisa ventiladores, luces indicadoras y realiza pruebas de software para
                             asegurar el correcto funcionamiento del sistema.</div>
+                            <img src="imagenes/paso8.jpg" alt="Cierre y prueba" width="230"></div>
                     </div>
 
+                <div class="card">
                     <div class="step">
                         <div class="step-num">9</div>
                         <div><strong>Mantenimiento de software:</strong> Elimina programas innecesarios, limpia archivos
                             temporales y realiza un escaneo completo con antivirus. Esto reduce la carga del sistema
                             operativo y mejora el rendimiento general de la computadora.</div>
+                            <img src="imagenes/paso9.jpg" alt="Mantenimiento de software" width="300"></div>
                     </div>
 
+                <div class="card">
                     <div class="step">
                         <div class="step-num">10</div>
                         <div><strong>Documenta el mantenimiento:</strong> Anota la fecha y los procedimientos realizados
                             para llevar un registro. Esto te ayudará a planificar futuras intervenciones y a identificar
                             patrones de desgaste o fallas recurrentes.</div>
+                            <img src="imagenes/paso10.jpg" alt="Documenta el mantenimiento" width="230"></div>
                     </div>
 
                 </div>
@@ -194,7 +217,7 @@
     </section>
 
     <footer>
-        <p>© 2025 Proyecto Educativo CUN - Guía de Mantenimiento Preventivo</p>
+        <p>Educativo CUN - Guía de Mantenimiento Preventivo</p>
     </footer>
 
 </body>
